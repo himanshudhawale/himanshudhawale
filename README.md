@@ -36,25 +36,25 @@ PRINCIPLE  correctness first; complexity only when it earns its place
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/himanshudhawale/cistern">Cistern</a></h3>
-      <p>Semantic caching for LLM calls. Collapses equivalent prompts into one paid model call, with reproducible correctness and savings benchmarks.</p>
-      <code>Python</code> <code>Vector Search</code> <code>LLM Infrastructure</code>
+      <h3><a href="https://github.com/himanshudhawale/kura-metadata-store">Kura Metadata Store</a></h3>
+      <p>A strongly consistent metadata service built from first principles, with versioned key operations, atomic transactions, fenced leases, and an internal Raft roadmap.</p>
+      <code>C++23</code> <code>Raft</code> <code>Distributed Systems</code>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/himanshudhawale/bullfight">Bullfight</a></h3>
-      <p>Server-authoritative real-time gameplay with event-delta synchronization, reconnect recovery, and partition-aware cloud persistence.</p>
-      <code>TypeScript</code> <code>Socket.IO</code> <code>Cosmos DB</code>
+      <h3><a href="https://github.com/himanshudhawale/pgheat">pgheat</a></h3>
+      <p>Explainable hot, warm, and cold classification for PostgreSQL partitions using reset-safe counter deltas, explicit observation windows, and retained history.</p>
+      <code>Python</code> <code>PostgreSQL</code> <code>Observability</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/himanshudhawale/yakusoku-ledger">Yakusoku Ledger</a></h3>
-      <p>Privacy-aware agreement workflows backed by an immutable, permissioned blockchain and deterministic chaincode.</p>
-      <code>Hyperledger Fabric</code> <code>Go</code> <code>Node.js</code>
+      <h3><a href="https://github.com/himanshudhawale/cistern">Cistern</a></h3>
+      <p>Semantic caching for LLM calls. A reproducible benchmark shows 98% fewer model calls than byte-exact caching on its paraphrase workload.</p>
+      <code>Python</code> <code>Vector Search</code> <code>LLM Infrastructure</code>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/himanshudhawale/tokenslim">tokenslim</a></h3>
-      <p>Offline token measurement and context slimming with cost estimates, CI budget guards, and built-in MCP integration.</p>
+      <p>Offline token measurement and context slimming with cost estimates, CI budget guards, and built-in MCP integration; the included example cuts context by 32%.</p>
       <code>Python</code> <code>MCP</code> <code>Developer Tools</code>
     </td>
   </tr>
