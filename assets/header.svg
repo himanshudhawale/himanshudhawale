@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Himanshu Dhawale</title>
+  <desc id="description">Software engineer building distributed systems, cloud infrastructure, and AI developer tools.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#171717" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.52" stop-color="#050505" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="16" fill="#050505"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+  <circle cx="1040" cy="90" r="185" fill="#e5484d" opacity="0.08"/>
+  <circle cx="1040" cy="90" r="120" fill="none" stroke="#e5484d" stroke-width="1" opacity="0.25"/>
+  <path d="M930 0 L1200 0 L1200 360 L1010 360 Z" fill="url(#fade)" opacity="0.65"/>
+
+  <rect x="72" y="73" width="42" height="5" rx="2.5" fill="#e5484d"/>
+  <text x="72" y="150" fill="#f5f5f5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">
+    HIMANSHU DHAWALE
+  </text>
+  <text x="75" y="199" fill="#a3a3a3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" letter-spacing="4">
+    SOFTWARE ENGINEER
+  </text>
+  <text x="75" y="260" fill="#6f6f6f" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" letter-spacing="1">
+    DISTRIBUTED SYSTEMS  /  CLOUD  /  AI INFRASTRUCTURE
+  </text>
+
+  <text x="1050" y="98" fill="#e5484d" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="38" font-weight="700" text-anchor="middle">
+    構築
+  </text>
+  <text x="1050" y="132" fill="#777777" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="5" text-anchor="middle">
+    BUILD
+  </text>
+
+  <rect x="72" y="310" width="1056" height="1" fill="#202020"/>
+  <circle cx="75" cy="311" r="4" fill="#e5484d"/>
+</svg>
