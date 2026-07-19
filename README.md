@@ -1,22 +1,18 @@
-<!-- GitHub profile README -->
-
 <p align="center">
   <img src="./assets/header.svg" alt="Himanshu Dhawale — Software Engineer" width="100%" />
 </p>
 
 <p align="center">
-  <strong>Software Engineer at Microsoft</strong><br />
-  Distributed systems · Cloud infrastructure · AI developer tooling
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=E5484D&center=true&vCenter=true&width=760&lines=Software+Engineer+at+Microsoft;Distributed+Systems+%7C+Cloud+Infrastructure;AI+Developer+Tools+%7C+Systems+from+First+Principles" alt="Animated roles and areas of focus" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/himanshudhawale">
-    <img src="https://img.shields.io/badge/GitHub-0a0a0a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=himanshudhawale&style=for-the-badge&color=0a0a0a&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/badge/DISTRIBUTED_SYSTEMS-0A0A0A?style=for-the-badge&labelColor=E5484D" alt="Distributed systems" />
+  <img src="https://img.shields.io/badge/CLOUD_INFRASTRUCTURE-0A0A0A?style=for-the-badge&labelColor=E5484D" alt="Cloud infrastructure" />
+  <img src="https://img.shields.io/badge/AI_TOOLING-0A0A0A?style=for-the-badge&labelColor=E5484D" alt="AI tooling" />
 </p>
 
-## 私について · About
+## About
 
 I build dependable backend and platform systems, with a focus on distributed
 systems, cloud infrastructure, and practical AI tooling. I enjoy working from
@@ -24,37 +20,48 @@ first principles: defining the invariants, measuring the tradeoffs, and making
 the system observable.
 
 ```text
-現在 / now       building reliable systems and developer tools
-探求 / exploring consensus, caching, real-time state, and AI infrastructure
-原則 / principle correctness first; complexity only when it earns its place
+FOCUS      distributed systems, cloud platforms, AI infrastructure
+METHOD     define invariants → measure tradeoffs → build for failure
+PRINCIPLE  correctness first; complexity only when it earns its place
 ```
 
-## 技術 · Technology
+## Engineering toolkit
 
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,ts,go,nodejs,azure,docker,kubernetes,git,linux&theme=dark" alt="Java, Python, TypeScript, Go, Node.js, Azure, Docker, Kubernetes, Git, and Linux" />
 </p>
 
-## 作品 · Selected work
+## Featured systems
 
-| Project | What it explores | Stack |
-| --- | --- | --- |
-| **[Cistern](https://github.com/himanshudhawale/cistern)** | Semantic caching for LLM calls, with measurable cost savings and correctness benchmarks | Python |
-| **[Yakusoku Ledger](https://github.com/himanshudhawale/yakusoku-ledger)** | Privacy-aware student–university agreements on a permissioned blockchain | Hyperledger Fabric, Go, Node.js |
-| **[Bullfight](https://github.com/himanshudhawale/bullfight)** | Server-authoritative real-time gameplay with reconnect-safe state synchronization | TypeScript, Socket.IO, Cosmos DB, Azure |
-| **[tokenslim](https://github.com/himanshudhawale/tokenslim)** | Offline token measurement, context slimming, CI budget guards, and MCP integration | Python, MCP |
-
-## 統計 · GitHub
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/himanshudhawale/cistern">Cistern</a></h3>
+      <p>Semantic caching for LLM calls. Collapses equivalent prompts into one paid model call, with reproducible correctness and savings benchmarks.</p>
+      <code>Python</code> <code>Vector Search</code> <code>LLM Infrastructure</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/himanshudhawale/bullfight">Bullfight</a></h3>
+      <p>Server-authoritative real-time gameplay with event-delta synchronization, reconnect recovery, and partition-aware cloud persistence.</p>
+      <code>TypeScript</code> <code>Socket.IO</code> <code>Cosmos DB</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/himanshudhawale/yakusoku-ledger">Yakusoku Ledger</a></h3>
+      <p>Privacy-aware agreement workflows backed by an immutable, permissioned blockchain and deterministic chaincode.</p>
+      <code>Hyperledger Fabric</code> <code>Go</code> <code>Node.js</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/himanshudhawale/tokenslim">tokenslim</a></h3>
+      <p>Offline token measurement and context slimming with cost estimates, CI budget guards, and built-in MCP integration.</p>
+      <code>Python</code> <code>MCP</code> <code>Developer Tools</code>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=himanshudhawale&theme=github_dark" alt="Himanshu's GitHub statistics" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=himanshudhawale&theme=github_dark" alt="Himanshu's most-used languages by repository" />
-</p>
-
-<p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=himanshudhawale&theme=github_dark" alt="Himanshu's GitHub contribution graph" />
-</p>
-
-<p align="center">
-  <sub>継続は力なり · Consistency becomes strength.</sub>
+  <img src="https://img.shields.io/badge/BUILD_FOR_FAILURE.-E5484D?style=for-the-badge&labelColor=050505" alt="Build for failure" />
+  <img src="https://img.shields.io/badge/MEASURE_THE_TRADEOFFS.-E5484D?style=for-the-badge&labelColor=050505" alt="Measure the tradeoffs" />
+  <img src="https://img.shields.io/badge/KEEP_THE_INVARIANTS.-E5484D?style=for-the-badge&labelColor=050505" alt="Keep the invariants" />
 </p>
